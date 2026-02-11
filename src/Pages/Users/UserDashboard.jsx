@@ -62,7 +62,7 @@ export default function UserDashboard() {
     setLoading(true);
     try {
       await axios.post(
-        "http://localhost:5000/registrations",
+        "https://eventmanagementserver-3qnz.onrender.com/registrations",
         {
           eventId: selectedEvent._id,
           name: formData.name,
