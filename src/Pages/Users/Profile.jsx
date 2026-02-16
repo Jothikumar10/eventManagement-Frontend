@@ -201,7 +201,7 @@ export default function Profile() {
           <div className="bg-gray-800/50 border border-gray-700 rounded-3xl p-8 text-center backdrop-blur-sm">
             <div className="relative w-36 h-36 mx-auto group">
               <img
-                src={user.avatar ? `http://localhost:5000${user.avatar}` : "https://ui-avatars.com/api/?name=" + user.name}
+                src={user.avatar ? `https://eventmanagementserver-3qnz.onrender.com${user.avatar}` : "https://ui-avatars.com/api/?name=" + user.name}
                 className="w-full h-full rounded-full object-cover border-4 border-yellow-400"
                 alt="Profile"
               />
