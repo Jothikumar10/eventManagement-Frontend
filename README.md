@@ -1,16 +1,63 @@
-# React + Vite
+🚀 Event Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Event Management web application that allows users to create, manage, and register for events through a modern and responsive interface. This project demonstrates end-to-end development including frontend UI, backend APIs, and database integration.
+Live Demo
 
-Currently, two official plugins are available:
+🔗 Live Project: (https://eventmanagement-frontend-afos.onrender.com/)
+GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠 Tech Stack
+Frontend
 
-## React Compiler
+React.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+HTML5
 
-## Expanding the ESLint configuration
+CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript
+
+Backend
+
+Node.js
+
+Express.js
+
+Database
+
+MongoDB
+✨ Features
+
+👤 User Authentication
+
+📅 Event Creation & Management
+
+📝 Event Registration
+
+🔍 Event Listing & Details
+
+📱 Responsive Design
+
+🔐 Secure Data Handling
+
+Installation & Setup
+Install Frontend Dependencies
+cd frontend
+npm install
+npm start
+
+3️⃣ Install Backend Dependencies
+cd backend
+npm install
+npm run dev
+
+
+🌐 Environment Variables
+Create a .env file in backend folder:
+PORT=5000
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+
+
+👨‍💻 Author
+Jothikumar R
